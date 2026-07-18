@@ -88,7 +88,6 @@ TiendaCafe/
 ├── Leche.java
 ├── Chocolate.java
 ├── Crema.java
-├── Caramelo.java
 │
 ├── Pedido.java
 └── Main.java
