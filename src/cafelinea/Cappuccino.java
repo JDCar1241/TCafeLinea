@@ -13,6 +13,6 @@ public class Cappuccino implements Cafe {
 
     @Override
     public double getPrecio() {
-        return 9.00;
+        return 9.90;
     }
 }

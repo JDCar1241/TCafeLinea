@@ -17,6 +17,6 @@ public class Chocolate extends DecoradorCafe {
 
     @Override
     public double getPrecio() {
-        return cafe.getPrecio() + 2.00;
+        return cafe.getPrecio() + 2.50;
     }
 }
