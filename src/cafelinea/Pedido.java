@@ -4,15 +4,10 @@
  */
 package cafelinea;
 
-public class CafeAmericano implements Cafe {
-
-    @Override
-    public String getDescripcion() {
-        return "Cafe Americano";
-    }
-
-    @Override
-    public double getPrecio() {
-        return 7.50;
-    }
+/**
+ *
+ * @author sistemas
+ */
+public class Pedido {
+    
 }

@@ -4,15 +4,15 @@
  */
 package cafelinea;
 
-public class CafeAmericano implements Cafe {
+public class Cappuccino implements Cafe {
 
     @Override
     public String getDescripcion() {
-        return "Cafe Americano";
+        return "Cappuccino";
     }
 
     @Override
     public double getPrecio() {
-        return 7.50;
+        return 9.00;
     }
 }
