@@ -17,6 +17,6 @@ public class Leche extends DecoradorCafe {
 
     @Override
     public double getPrecio() {
-        return cafe.getPrecio() + 1.30;
+        return cafe.getPrecio() + 1.30  ;
     }
 }

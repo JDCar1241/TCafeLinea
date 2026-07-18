@@ -14,9 +14,12 @@ public class Main {
         pedido = new Chocolate(pedido);
         pedido = new Crema(pedido);
 
-        System.out.println("PEDIDO DE CAFE");
-        System.out.println("------------------------");
-        System.out.println("Descripcion: " + pedido.getDescripcion());
-        System.out.println("Precio total: S/ " + pedido.getPrecio());
+        Pedido nuevoPedido = new Pedido(
+                1001,
+                "Jairo",
+                pedido
+        );
+
+        nuevoPedido.mostrarPedido();
     }
 }

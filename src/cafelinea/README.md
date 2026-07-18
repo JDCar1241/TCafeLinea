@@ -133,3 +133,4 @@ Producto: Cafe Americano + Leche + Chocolate + Crema
 Total: S/ 11.50
 ============================
 ```
+![alt diagrama uml ](image-1.png)
