@@ -19,7 +19,7 @@ public class Pedido {
     public void mostrarPedido() {
 
         System.out.println("\n========== PEDIDO ==========");
-        System.out.println("Número: " + numeroPedido);
+        System.out.println("Numero: " + numeroPedido);
         System.out.println("Cliente: " + cliente);
         System.out.println("Producto: " + cafe.getDescripcion());
         System.out.println("Total: S/ " + cafe.getPrecio());
